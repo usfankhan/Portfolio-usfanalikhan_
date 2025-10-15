@@ -180,6 +180,106 @@ body {
     font-size: 30px;
     color: #fff;
 }
+/* Projects section styles */
+.projects {
+    display: flex;
+    flex-direction: column;
+    
+    margin: 4.8rem 0;
+    padding: 0 2rem;
+    background: linear-gradient(135deg, #53C8B6, #74D7BB, #35A99C);
+    border-radius: 30px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Example CSS */
+.projects {
+    margin: 2rem 0; /* Reduce top/bottom margin */
+    padding: 0 5rem;
+}
+
+.projects h1 {
+    margin-bottom: 1rem; /* Reduce space below the main heading */
+}
+
+.projects h2 {
+    margin-top: 0.5rem; /* Reduce space above project title */
+}
+
+
+.my-row {
+    display: flex;
+    flex-wrap: wrap;
+ 
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.my-row .my-col {
+    text-align: center;
+    width: 300px;
+}
+
+.my-card {
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-start;
+    border-radius: 20px;
+    background: #fff;
+    padding: 2rem 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.my-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+}
+
+.my-card h3 {
+    font-size: 1.6rem;
+    color: #35A99C;
+    margin: 1rem 0 0.5rem 0;
+}
+
+.my-card p {
+    font-size: 0.95rem;
+    color: #333;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.my-card a {
+    color: #35A99C;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.my-card a:hover {
+    text-decoration: underline;
+}
+
+.icon {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: #35A99C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.icon svg {
+    font-size: 36px;
+    color: #fff;
+}
+
+
 
 /* Contact section styles */
 .contact {
